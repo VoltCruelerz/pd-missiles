@@ -1,0 +1,11 @@
+{
+    "name": "PD Missiles",
+    "author": "Volt Cruelerz",
+    "url": "https://github.com/VoltCruelerz/constituent-components",
+    "description": "Adds PD missiles to the Dunov.",
+    "version": "2.0.0",
+    "sinsVersion": "1.16.7.0",
+    "greedVersion": "2.0.0",
+    "dependencies": [],
+    "conflicts": []
+}

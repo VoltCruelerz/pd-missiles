@@ -1,0 +1,198 @@
+{
+    "ai": {
+        "priority_bonus_per_attack_target_type": {
+            "torpedo": 6.0,
+            "corvette": 5.0,
+            "bomber_strikecraft": 4.0,
+            "fighter_strikecraft": 3.0
+        }
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "trader_support_capital_ship_point_defense_missile",
+                "mesh_point": "child.misturret_mount_0",
+                "weapon_position": [
+                    -0.081722,
+                    114.620064,
+                    -40.382492
+                ],
+                "forward": [
+                    0,
+                    0,
+                    1
+                ],
+                "up": [
+                    0,
+                    1,
+                    0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180,
+                    "max_angle": 180
+                },
+                "pitch_arc": {
+                    "min_angle": -5,
+                    "max_angle": 90
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_0",
+                "weapon_position": [-55.743805, -1.376896, 323.56015],
+                "forward": [-1e-06, -0.0, 1.0],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -115.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -85.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_1",
+                "weapon_position": [55.72406, -1.376896, 323.56015],
+                "forward": [-1e-06, -0.0, 1.0],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -85.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_2",
+                "weapon_position": [-86.374573, 25.36237, 96.664894],
+                "forward": [-1.0, 0.0, -1e-06],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -85.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_3",
+                "weapon_position": [86.24353, 25.36237, 96.696953],
+                "forward": [1.0, 0.0, 3e-06],
+                "up": [0.0, 1.0, 0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -85.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_0",
+                "weapon_position": [-56.812805, -67.436829, 304.028351],
+                "forward": [0.0, 0.0, 1.0],
+                "up": [0.0, -1.0, -0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -65.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_1",
+                "weapon_position": [54.868622, -67.436829, 304.028351],
+                "forward": [0.0, 0.0, 1.0],
+                "up": [0.0, -1.0, -0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -120.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_2",
+                "weapon_position": [39.418461, -61.037361, -275.993042],
+                "forward": [0.0, 0.0, -1.0],
+                "up": [-0.0, -1.0, -0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -30.0,
+                    "max_angle": 130.0
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -65.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_3",
+                "weapon_position": [-40.252956, -61.037361, -275.993042],
+                "forward": [0.0, 0.0, -1.0],
+                "up": [-0.0, -1.0, -0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -130.0,
+                    "max_angle": 30.0
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -65.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_support_capital_ship_planet_bombing",
+                "mesh_point": "bomb",
+                "weapon_position": [-0.090842, 14.376944, 302.711548],
+                "non_turret_muzzle_positions": [
+                    [-0.090842, 14.376944, 302.711548]
+                ],
+                "forward": [0.0, 0.0, 1.0],
+                "up": [-0.0, 1.0, -0.0],
+                "yaw_arc":
+                {
+                    "min_angle": -10,
+                    "max_angle": 10
+                },
+                "pitch_arc":
+                {
+                    "min_angle": -10,
+                    "max_angle": 10
+                }
+            }
+        ],
+        "max_range_weapon_index": 0
+    }
+}

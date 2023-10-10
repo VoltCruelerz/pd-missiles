@@ -1,0 +1,88 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 5.532053,
+        "box": {
+            "center": [
+                0,
+                0,
+                0.000002
+            ],
+            "extents": [
+                0.138625,
+                0.138625,
+                0.526771
+            ]
+        },
+        "collision_rank": 0,
+        "can_displace_target_on_collision": false
+    },
+    "physics": {
+        "mass": 100,
+        "can_move_linear": true,
+        "max_linear_speed": 16000,
+        "time_to_max_linear_speed": 0.15,
+        "arrival_tolerance_spatial_radius_scalar": 5,
+        "death_linear_speed_range": [
+            1,
+            2
+        ],
+        "can_move_angular": true,
+        "max_angular_speed": 50000.0,
+        "time_to_max_angular_speed": 0.05,
+        "max_bank_angle": 89,
+        "death_angular_speed_range": [
+            5,
+            10
+        ],
+        "linear_acceleration_angle": 180,
+        "linear_speed_floor_to_brake_for_turn": 500,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 35000,
+        "time_to_strafe_max_linear_speed": 0.05,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3,
+        "strafe_start_angle": 0,
+        "strafe_stop_angle": 180,
+        "strafe_speed_start_angle": 10,
+        "strafe_max_start_turning_angle": 170,
+        "disable_goal_tracking_on_death": false
+    },
+    "move": {
+        "follow_distance": 35.015949
+    },
+    "ai_attack_target": {
+        "attack_priority": 50,
+        "is_always_a_threat": true,
+        "attack_target_types": [
+            "torpedo"
+        ]
+    },
+    "user_interface": {
+        "can_ever_be_selected": true,
+        "has_sub_selection_grouping": true,
+        "selection_group_unit_type": "torpedo",
+        "can_move": true,
+        "can_attack": true,
+        "can_show_distance_to_plane_line": true,
+        "under_cursor_type": "sphere_box"
+    },
+    "formation": {
+        "leader_priority": 0,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 1,
+                "group": 1
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60,
+        "max_hull_points": 1,
+        "hull_point_restore_rate": 0.01
+    },
+    "target_filter_unit_type": "torpedo",
+    "skins": [
+        "trader_small_torpedo"
+    ],
+    "can_add_to_kill_statistics": false
+}
